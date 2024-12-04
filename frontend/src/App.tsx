@@ -22,8 +22,37 @@ function App() {
           count is {amount}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          emma emma emma emma emma
         </p>
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
+          <img src="https://sticker-collection.com/Yellowboi?culture=es" height={500} width={500} alt="Placeholder" />
       </div>
       <p className="read-the-docs">
           {amount}
