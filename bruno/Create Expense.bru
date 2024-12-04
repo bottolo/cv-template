@@ -1,0 +1,18 @@
+meta {
+  name: Create Expense
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/api/expenses
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Title",
+    "amount": 10
+  }
+}
