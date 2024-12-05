@@ -1,19 +1,23 @@
-import {useState} from 'react'
-import './App.css'
-import {api} from "../lib/api.ts";
+import {createFileRoute} from '@tanstack/react-router'
+import {useState} from "react";
 import {useQuery} from "@tanstack/react-query";
+import {api} from "../../lib/api.ts";
 
+export const Route = createFileRoute('/')({
+    component: Index,
+})
 
 async function getTotalSpent() {
-    const result = await api.expenses["total-spent"].$get()
-    if (!result.ok) {
-        throw new Error("Failed to fetch total spent")
+    const res = await api.expenses["total-spent"].$get();
+
+    if (!res.ok) {
+        throw new Error('Error')
     }
 
-    return await result.json()
+    return await res.json()
 }
 
-function App() {
+function Index() {
     const [amount, setAmount] = useState(0)
 
     const {isPending, error, data} = useQuery({queryKey: ['get-total-spent'], queryFn: getTotalSpent})
@@ -36,5 +40,3 @@ function App() {
         </>
     )
 }
-
-export default App
