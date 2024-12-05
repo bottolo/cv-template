@@ -1,6 +1,6 @@
-import {hc} from "hono/client";
-import type {ApiRoutes} from "@backend/app.ts";
+import type { ApiRoutes } from "@backend/app.ts";
+import { hc } from "hono/client";
 
-const client = hc<ApiRoutes>("/")
+const client = hc<ApiRoutes>("/");
 
 export const api = client.api;

@@ -1,20 +1,15 @@
-import {Hono} from "hono";
-import {logger} from "hono/logger";
-import {expensesRoute} from "./routes/expenses.ts";
-import {serveStatic} from "hono/bun"
+import { Hono } from "hono";
+import { serveStatic } from "hono/bun";
+import { logger } from "hono/logger";
+import { notionRoute } from "./routes/notion/notion.ts";
 
-const app = new Hono()
+const app = new Hono();
 
-app.use("*", logger())
+app.use("*", logger());
 
-app.get("/test", c => {
-    return c.json({"message": "Hello, Hono!"})
-})
-
-const apiRoutes = app.basePath("/api").route("/expenses", expensesRoute)
-
-app.use('*', serveStatic({root: './frontend/dist'}))
-app.use('*', serveStatic({path: './frontend/dist/index.html'}))
+const apiRoutes = app.basePath("/api").route("/notion", notionRoute);
+app.use("*", serveStatic({ root: "./frontend/dist" }));
+app.use("*", serveStatic({ path: "./frontend/dist/index.html" }));
 
 export default app;
 export type ApiRoutes = typeof apiRoutes;
